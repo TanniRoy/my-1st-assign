@@ -1,0 +1,326 @@
+/* nay style */
+
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.head {
+    background-image: url(../Assets/Hero-bg.png);
+    weight: 1440px;
+    height: 698px;
+}
+
+
+
+.btn-basic {
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-logo {
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: bold;
+
+
+}
+
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+/* Banner styles */
+.banner-des {
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-banner {
+    text-align: center;
+}
+
+.banner {
+    /* text-align: center; */
+}
+
+/* Action styles */
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: auto;
+    width: 1140px;
+    height: 382px;
+    padding: 130px 150px;
+    text-align: left;
+
+}
+
+.action-title {
+    font-weight: 600;
+    font-size: 45;
+    width: 517px;
+    height: 49px;
+    color: #252432;
+}
+
+.action-des {
+    color: #252432;
+    font-size: 24;
+    width: 50%;
+}
+
+.action img {
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+
+}
+
+.action-set {
+    /* text-align: justify; */
+    margin: ;
+}
+
+/* .action-button {
+    width: 229px;
+    height: 48px;
+    padding: 20px;
+    font-size: 16;
+    font-weight: 600;
+} */
+
+
+
+
+.users {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    /* background-color: #D6D7FF; */
+    /* width: 1140; */
+    /* height: 100vh; */
+    /* height: 306px; */
+    /* padding: 80px 50px; */
+
+}
+
+.user-items {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+
+    /* border-radius: 8px; */
+
+
+    gap: 150px;
+    flex-wrap: wrap;
+    /* text-align: center; */
+
+
+}
+
+.user h2 {
+    color: #222;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.item-description {
+    font-weight: 20;
+    color: #000000;
+}
+
+.item-title {
+    color: #4E47FF;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.secondary-bg {
+    background-color: #D6D7FF;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* skill styles */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    /* padding: 30px; */
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill img {
+    width: 60px;
+}
+
+.focus {
+    text-align: center;
+    max-width: 1140;
+    height: 698;
+    background-color: aliceblue;
+    padding: 71px 150px;
+    gap: 40px;
+
+}
+
+.webflow img {
+    /* width: 840; */
+    /* height: 364px; */
+    /* padding: 71px 150px; */
+    text-align: center;
+    border-radius: 30px;
+    width: 100%;
+    height: 300px;
+}
+
+
+/* form style */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.contact-container {
+    display: flex;
+    background-color: #f0f3ff;
+    border-radius: 12px;
+    padding: 60px;
+    max-width: 1140px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    gap: 60px;
+}
+
+.contact-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.contact-left h1 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #000;
+    margin: 0;
+}
+
+.contact-right {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+}
+
+input,
+textarea {
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #ffffff;
+    resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #b0b0b0;
+}
+
+button {
+    padding: 14px;
+    background-color: #5a41ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #4330d6;
+}
+
+@media (max-width: 900px) {
+    .contact-container {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .contact-left h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+}
